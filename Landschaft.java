@@ -27,9 +27,14 @@ public class Landschaft {
   public Landschaft(){
       
       fenster = new View(1000,800);
-      windmuehle1 = new Windmuehle;
-      windmuehle2 = new Windmuehle;
-      windmuehle3 = new Windmuehle;
+      windmuehle1 = new Windmuehle(30,30,Color.BLUE);
+      windmuehle2 = new Windmuehle(20,20,Color.GREEN);
+      windmuehle3 = new Windmuehle(10,10,Color.RED);
+      
+      
+      windrad1 = new Windkraftanlage;
+      windrad2 = new Windkraftanlage(50,50,Color.YELLOW);
+      windrad3 = new Windkraftanlage(40,40,Color.PINK);
     
     
     

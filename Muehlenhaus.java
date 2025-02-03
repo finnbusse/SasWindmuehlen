@@ -1,5 +1,5 @@
-import sas.*;
-import jawa.awt.Color;
+import sas.*; 
+import java.awt.Color; 
 /**
  *
  * Description
@@ -10,7 +10,7 @@ import jawa.awt.Color;
 
 public class Muehlenhaus {
   
-  // start attributes
+  muehlenhaus = new Muehlenhaus// start attributes
   // end attributes
   
   // start methods

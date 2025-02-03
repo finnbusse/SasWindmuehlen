@@ -10,8 +10,8 @@ import java.awt.Color;
 
 public class Turm {
     public Turm(double px,double py){
-        View view = new View(800,800);
-        Rectangle turm = new Rectangle(px,py,20,100, new Color(232,232,232));
+        Rectangle turm = new Rectangle(px,py,12,180, new Color(232,232,232));
+        Circle turbine = new Circle(px-7,py-7,14,new Color(232,232,232));
 
     }
 } 

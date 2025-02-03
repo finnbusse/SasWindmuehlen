@@ -1,13 +1,17 @@
+import sas.*;
+import java.awt.Color;
+
+
 /**
  *
  * Description
  *
- * @version 1.0 from 02.02.2025
+ * @version 1.0 from 03.02.2025
  * @author Finn Busse
  */
 
 public class Windkraftanlage {
-  
+
   // start attributes
   private Turm turm;
   private Rotor rotor;
@@ -15,10 +19,15 @@ public class Windkraftanlage {
 
   public void Windkraftanlage(double px, double py) {
     turm = new Turm(px, py);
-    rotor = new Rotor(px+50, py-10);
+    rotor = new Rotor(px + 50, py - 10);
 
   }
-  
-  // start methods
-  // end methods
-} // end of Windrad
+
+  public double getX() {
+    return px;
+  }
+
+  public double getY() {
+    return py;
+  }
+}
