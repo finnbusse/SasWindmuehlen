@@ -9,39 +9,26 @@ import java.awt.Color;
  */
 
 public class Landschaft {
+
+    // start attributes
+    private Windmuehle windmuehle1;
+    private Windmuehle windmuehle2;
+    private Windmuehle windmuehle3;
+    private Windkraftanlage windrad1,windrad2,windrad3;
+    View fenster;
+
   
-  // start attributes
-  private Windmuehle windmuehle1;
-  private Windmuehle windmuehle2;
-  private Windmuehle windmuehle3;
-  private Windkraftanlage windrad1,windrad2,windrad3;
-  View fenster;
-  
-  
-  
-  
-  // end attributes
-  
-  // start methods
-  
-  public Landschaft(){
-      
-      fenster = new View(1000,800);
-      windmuehle1 = new Windmuehle(30,30,Color.BLUE);
-      windmuehle2 = new Windmuehle(20,20,Color.GREEN);
-      windmuehle3 = new Windmuehle(10,10,Color.RED);
-      
-      
-      windrad1 = new Windkraftanlage;
-      windrad2 = new Windkraftanlage(50,50,Color.YELLOW);
-      windrad3 = new Windkraftanlage(40,40,Color.PINK);
-    
-    
-    
-    
-    
-    
-    
+    // end attributes
+    // start methods
+    public Landschaft(){
+        fenster = new View(1000,800);
+        windmuehle1 = new Windmuehle(30,30);
+        windmuehle2 = new Windmuehle(20,20);
+        windmuehle3 = new Windmuehle(10,10);
+
+        windrad1 = new Windkraftanlage(60,60);
+        windrad2 = new Windkraftanlage(50,50);
+        windrad3 = new Windkraftanlage(40,40);
     }
-  // end methods
+    // end methods
 } // end of Landschaft

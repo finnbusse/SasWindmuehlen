@@ -9,10 +9,11 @@ import java.awt.Color;
  */
 
 public class Muehlenhaus {
-  
-  muehlenhaus = new Muehlenhaus// start attributes
-  // end attributes
-  
-  // start methods
-  // end methods
-} // end of Muehlenhaus
+
+    //start attributes
+    // end attributes
+
+    // start methods
+    public void muehlenhaus(){
+        // end methods
+    } }// end of Muehlenhaus
