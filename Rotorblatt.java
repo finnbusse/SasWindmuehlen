@@ -11,12 +11,15 @@ import java.awt.Color;
 
 public class Rotorblatt {
   
-    Ellipse blatt;
+    private Ellipse blatt;
   
     public Rotorblatt(double pX,double pY){
-        blatt = new ellipse
+        blatt = new Ellipse(pX,pY,100,30,Color.BLUE);
     
     }
   // start methods
+  
+  
+  
   // end methods
 } // end of Rotorblatt

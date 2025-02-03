@@ -13,8 +13,8 @@ public class Windmuehle {
   private Muehlenrad  muehlenrad;
   // end attributes
   public void Windmuehle(double px,double py){
-      muehlenhaus = new Muehlenhaus();
-      muehlenrad = new 
+      muehlenhaus = new Muehlenhaus(px,py);
+      muehlenrad = new Muehlenrad(px+50,py-10);
   }
   // start methods
 

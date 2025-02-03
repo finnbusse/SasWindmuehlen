@@ -24,6 +24,19 @@ public class Landschaft {
   
   // start methods
   
-  
+  public Landschaft(){
+      
+      fenster = new View(1000,800);
+      windmuehle1 = new Windmuehle;
+      windmuehle2 = new Windmuehle;
+      windmuehle3 = new Windmuehle;
+    
+    
+    
+    
+    
+    
+    
+    }
   // end methods
 } // end of Landschaft

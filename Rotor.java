@@ -19,10 +19,7 @@ public class Rotor {
   
   
   public void drehen(){
-      rotorblatt1=new Rotorblatt();
-      rotorblatt2=new Rotorblatt();
-      rotorblatt3=new Rotorblatt();
+      rotorblatt=new Rotorblatt
     }
 
-  // end methods
-} // end of Rotor
+  // end m
