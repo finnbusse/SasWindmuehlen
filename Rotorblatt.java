@@ -12,14 +12,14 @@ import java.awt.Color;
 public class Rotorblatt {
   
     private Ellipse blatt;
-    double pA;
+    double pA,pB,pC;
     public Rotorblatt(double pX,double pY){
         blatt = new Ellipse(pX,pY,100,30,Color.BLUE);
     }
   // start methods
-    public void drehen(double pA)
+    public void drehen(double pA,double pB,double pC)
     {
-        blatt.turn(pA);
+        blatt.turn(pA,pB,pC);
     }
   
   
