@@ -5,6 +5,7 @@ public class Muehlenfluegel {
   public Muehlenfluegel(double x,double y) {
       fluegel = new Rectangle(x,y+100,5,100);
       
+      
   }
   public void drehen(double grad){
       fluegel.turn(grad);
