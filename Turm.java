@@ -11,7 +11,7 @@ import java.awt.Color;
 public class Turm {
     Rectangle turm,tuer,gruen0,gruen1,gruen2,gruen3,rot;
     Circle tuergriff,turbine;
-    an = true
+    an = true;
     public Turm(double px,double py){
         turm = new Rectangle(px,py,12,180, new Color(202,202,202));
         turbine = new Circle(px-7,py-7,14,new Color(202,202,202));
