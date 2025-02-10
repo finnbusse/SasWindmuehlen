@@ -19,7 +19,7 @@ public class Rotor {
         view = new View(1000,800);
         Rotor();
         for(int i = 0; i < 1000;i++) {
-        
+            drehen(0.5);
         }
     }
     // end attributes
