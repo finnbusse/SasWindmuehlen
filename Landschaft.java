@@ -37,7 +37,7 @@ public class Landschaft {
         windrad3 = new Windkraftanlage(700,200);
     }
     
-    public void windmuehleDrehen(){
+    /*public void windmuehleDrehen(){
         for (int i = 0; i < 500; i++){
             windmuehle1.drehen(5);
             fenster.wait(30);
