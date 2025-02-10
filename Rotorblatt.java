@@ -21,4 +21,4 @@ public class Rotorblatt {
     {
         blatt.turn(pA,pB,pC);
     }
-} // end of Rotorblatt
+} 
