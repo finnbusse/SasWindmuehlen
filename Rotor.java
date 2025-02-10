@@ -27,6 +27,9 @@ public class Rotor {
             view.wait(5);
         }
     }
+
+    public Rotor(double v, double v1) {
+    }
     // end attributes
   
   // start methods
