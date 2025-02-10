@@ -25,6 +25,7 @@ public class Rotor {
         rotorblatt2 = new Rotorblatt(pX,pY);
         rotorblatt3 = new Rotorblatt(pX,pY);
         rotorblatt1.drehen(pX, pY, 0);
+        rotorblatt2.drehen(pX, pY, 120);
         
     }
 
