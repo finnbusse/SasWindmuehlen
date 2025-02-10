@@ -11,6 +11,7 @@ import java.awt.Color;
 public class Muehlenhaus {
 
     //start attributes
+    View fenster;
     Rectangle muehlenhaus;
     
     // end attributes
