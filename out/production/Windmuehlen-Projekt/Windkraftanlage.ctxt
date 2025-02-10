@@ -1,4 +1,10 @@
 #BlueJ class context
 comment0.target=Windkraftanlage
-comment0.text=\r\n\r\n\ Description\r\n\r\n\ @version\ 1.0\ from\ 02.02.2025\r\n\ @author\ \r\n
-numComments=1
+comment0.text=\r\n\r\n\ Description\r\n\r\n\ @version\ 1.0\ from\ 03.02.2025\r\n\ @author\ Finn\ Busse\r\n
+comment1.params=pX\ pY
+comment1.target=Windkraftanlage(double,\ double)
+comment2.params=
+comment2.target=double\ getX()
+comment3.params=
+comment3.target=double\ getY()
+numComments=4

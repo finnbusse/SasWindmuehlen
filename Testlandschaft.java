@@ -1,9 +1,7 @@
 import sas.*;
 
-import java.awt.*;
 
-
-public class testLandschaft {
+public class Testlandschaft {
 
 
     View testView;
@@ -11,7 +9,7 @@ public class testLandschaft {
 
 
 
-    public testLandschaft() {
+    public Testlandschaft() {
         testView = new View(1000,700);
         testAnlage = new Windkraftanlage(50, 100);
     }
