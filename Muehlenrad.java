@@ -14,7 +14,7 @@ public class Muehlenrad {
     // start attributes
     private Muehlenfluegel muehlenfluegel1, 
     muehlenfluegel2, muehlenfluegel3, 
-    muehlenfluegel4; View fenster;
+    muehlenfluegel4; //View fenster;
 
     public Muehlenrad(double pX,double pY){
         //fenster=new View(1000,800,"TEST");
