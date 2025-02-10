@@ -1,8 +1,10 @@
 #BlueJ class context
 comment0.target=Rotor
 comment0.text=\r\n\r\n\ Description\r\n\r\n\ @version\ 1.0\ from\ 02.02.2025\r\n\ @author\ \r\n
-comment1.params=
-comment1.target=void\ Rotor()
+comment1.params=v\ v1
+comment1.target=Rotor(double,\ double)
 comment2.params=
-comment2.target=void\ drehen()
-numComments=3
+comment2.target=void\ Rotor()
+comment3.params=pA
+comment3.target=void\ drehen(double)
+numComments=4

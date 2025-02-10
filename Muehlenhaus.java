@@ -1,7 +1,5 @@
 import sas.*; 
-import java.awt.Color;
-import java.awt.Rectangle;
-
+import java.awt.Color; 
 /**
  *
  * Description
@@ -19,6 +17,6 @@ public class Muehlenhaus {
     // start methods
     public Muehlenhaus(double pX, double pY){
         // end methods
-        muehlenhaus= new Rectangle();
+        muehlenhaus= new rectangle (100,100); 
     }
     }// end of Muehlenhaus

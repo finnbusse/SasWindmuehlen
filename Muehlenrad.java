@@ -1,7 +1,6 @@
 import sas.*;
 import java.awt.Color;
 
-
 /**
  *
  * Description
@@ -22,16 +21,17 @@ public class Muehlenrad {
         muehlenfluegel1 = new Muehlenfluegel(pX,pY);
         muehlenfluegel2 = new Muehlenfluegel(pX,pY); muehlenfluegel2.drehen(90);
         muehlenfluegel3 = new Muehlenfluegel(pX,pY); muehlenfluegel3.drehen(180);
-        muehlenfluegel4 = new Muehlenfluegel(pX,pY);
+        muehlenfluegel4 = new Muehlenfluegel(pX,pY); muehlenfluegel4.drehen(270);
 
-    
     }      
-
     // end attributes
     // start methods
-  
-    public void drehen(){
 
+    public void drehen(){
+        muehlenfluegel3.drehen(180);
+        muehlenfluegel3.drehen(180);
+        muehlenfluegel3.drehen(180);
+        muehlenfluegel3.drehen(180);
     }
     // end methods
 } // end of Windrad
