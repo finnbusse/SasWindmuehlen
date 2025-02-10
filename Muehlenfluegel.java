@@ -3,7 +3,7 @@ import java.awt.Color;
 public class Muehlenfluegel {
     private Rectangle fluegel1;
     private Rectangle fluegel2;
-    private Rectangle raster[];
+    privat Rectangle raster[];
     public Muehlenfluegel(double x,double y) {
         raster = new Rectangle[6];
         fluegel1 = new Rectangle(x,y,5,80,Color.WHITE);
