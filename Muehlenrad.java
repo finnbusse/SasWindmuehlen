@@ -1,3 +1,7 @@
+import sas.*;
+import java.awt.Color;
+
+
 /**
  *
  * Description
@@ -14,6 +18,7 @@ public class Muehlenrad {
     muehlenfluegel4;
 
     public Muehlenrad(double pX,double pY){
+        new View(1000,800,"TEST");
         muehlenfluegel1 = new Muehlenfluegel(100,100);
         muehlenfluegel2 = new Muehlenfluegel(100,200); // muehlenfluegel2.turn(90);
         muehlenfluegel3 = new Muehlenfluegel(100,300); // ...

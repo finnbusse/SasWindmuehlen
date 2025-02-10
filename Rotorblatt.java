@@ -19,7 +19,7 @@ public class Rotorblatt {
   // start methods
     public void drehen()
     {
-        blatt.burn(double)
+        blatt.turn(double);
     }
   
   
