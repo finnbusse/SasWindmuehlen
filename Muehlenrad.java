@@ -19,7 +19,7 @@ public class Muehlenrad {
     public Muehlenrad(double pX,double pY){
         new View(1000,800,"TEST");
         muehlenfluegel1 = new Muehlenfluegel(pX,pY);
-        muehlenfluegel2 = new Muehlenfluegel(pX+100,pY); muehlenfluegel2.drehen(80);
+        muehlenfluegel2 = new Muehlenfluegel(pX+50,pY+50); muehlenfluegel2.drehen(80);
         muehlenfluegel3 = new Muehlenfluegel(pX,pY+100); muehlenfluegel3.drehen(190);
         muehlenfluegel4 = new Muehlenfluegel(pX+200,pY+200); muehlenfluegel4.drehen(300);
 
@@ -34,4 +34,4 @@ public class Muehlenrad {
         muehlenfluegel4.drehen(pAngle);
     }
     // end methods
-} // end of Windrad
+} // end of Wi
