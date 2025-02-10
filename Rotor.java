@@ -31,7 +31,7 @@ public class Rotor {
         y = pY;
     }
 
-    public void drehen(pA) {
+    public void drehen(double pA) {
         rotorblatt1.drehen(pA);
     }
 
