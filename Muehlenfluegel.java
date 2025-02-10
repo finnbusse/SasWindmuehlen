@@ -5,7 +5,7 @@ public class Muehlenfluegel {
   private Rectangle fluegel2;
   private Rectangle raster[];
   public Muehlenfluegel(double x,double y) {
-      
+      raster = new Rectangle[10];
       fluegel1 = new Rectangle(x,y,5,80);
       fluegel2 = new Rectangle(x+25,y+20,5,80);
       for (int i=0; i < 9; i++) {
