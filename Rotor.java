@@ -15,13 +15,11 @@ public class Rotor {
     public double pX, pY;
     View view;
 
-    public Rotor() {
-        pX = 100;
-        pY = 100;
+    public Rotor(double pX, double pY) {
         view = new View(1000,800);
         Rotor(pX, pY);
         for(int i = 0; i < 10000;i++) {
-            drehen(-50, 0, 1);
+            drehen(pX, pY, 1);
             view.wait(5);
         }
     }
