@@ -13,6 +13,6 @@ private class Muehlenfluegel {
       
 
   public void drehen(double grad){
-      fluegel.turn(grad);
+      fluegel1.turn(grad);
   }
 }
