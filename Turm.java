@@ -17,8 +17,8 @@ public class Turm {
         Rectangle gruen1 = new Rectangle(px,py+150,12,30,new Color(130,220,70));
         Rectangle gruen2 = new Rectangle(px,py+160,12,20,new Color(100,200,40));
         Rectangle gruen3 = new Rectangle(px,py+170,12,10,new Color(70,140,60));
-        Rectangle tuer = new Rectangle(px+4,py+168,4,12,new Color(200,200,200));
+        Rectangle tuer = new Rectangle(px+4,py+168,4,12,new Color(200,232,200));
         Circle tuergriff = new Circle(px+4,py+174,1,new Color(232,232,232));
-        Rectangle rot = new Rectangle(px,py+100,12,20,new Color(240,50,50));
+        Rectangle rot = new Rectangle(px,py+100,12,12,new Color(240,30,30));
     }
 } 
