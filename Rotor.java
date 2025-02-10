@@ -13,15 +13,9 @@ public class Rotor {
     // start attributes
     private Rotorblatt rotorblatt1,rotorblatt2,rotorblatt3;
     public double pX, pY;
-    View view;
 
     public Rotor(double pX, double pY) {
-        view = new View(1000,800);
         Rotor(pX, pY);
-        for(int i = 0; i < 10000;i++) {
-            drehen(pX, pY, 1);
-            view.wait(5);
-        }
     }
     // end attributes
 
