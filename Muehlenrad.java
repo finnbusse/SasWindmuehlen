@@ -29,7 +29,7 @@ public class Muehlenrad {
 
     public void drehen(double pAngle){
         
-        
+        for (int i = 0; i < 360; i+=5){
         muehlenfluegel1.drehen(pAngle);
         muehlenfluegel2.drehen(pAngle);
         muehlenfluegel3.drehen(pAngle);
