@@ -15,6 +15,8 @@ public class Rotor {
   public double pX, pY;
   View view;
   
+  
+  
 
     public Rotor(double pX, double pY) {
         view = new View(1000,800);
