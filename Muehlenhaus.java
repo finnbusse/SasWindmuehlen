@@ -12,7 +12,7 @@ public class Muehlenhaus {
 
     //start attributes
     Rectangle muehlenhaus;
-    new rectangle
+    
     // end attributes
 
     // start methods

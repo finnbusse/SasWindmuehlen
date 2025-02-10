@@ -14,7 +14,7 @@ public class Rotor {
   private Rotorblatt rotorblatt1,rotorblatt2,rotorblatt3;
   public double pX, pY;
 
-    public Rotor(double v, double v1) {
+    public Rotor(double pX, double v1) {
     }
     // end attributes
   
@@ -26,9 +26,9 @@ public class Rotor {
     }
     
     public void drehen(double pA) {
-        rotorblatt1.drehen(10);
-        rotorblatt2.drehen();
-        rotorblatt3.drehen();
+        rotorblatt1.drehen(pA);
+        rotorblatt2.drehen(pA);
+        rotorblatt3.drehen(pA);
     }
 
   // end methods
