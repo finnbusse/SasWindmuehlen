@@ -27,11 +27,11 @@ public class Muehlenrad {
     // end attributes
     // start methods
 
-    public void drehen(){
-        muehlenfluegel3.drehen(180);
-        muehlenfluegel3.drehen(180);
-        muehlenfluegel3.drehen(180);
-        muehlenfluegel3.drehen(180);
+    public void drehen(double pAngle){
+        muehlenfluegel1.drehen(pAngle);
+        muehlenfluegel2.drehen(pAngle);
+        muehlenfluegel3.drehen(pAngle);
+        muehlenfluegel4.drehen(180);
     }
     // end methods
 } // end of Windrad
