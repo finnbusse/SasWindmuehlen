@@ -16,6 +16,7 @@ public class Landschaft {
     private Windmuehle windmuehle3;
     private Windkraftanlage windrad1,windrad2,windrad3;
     View fenster;
+    public;
     
     
 

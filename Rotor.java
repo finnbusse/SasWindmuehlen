@@ -21,6 +21,10 @@ public class Rotor {
       rotorblatt2 = new Rotorblatt(pX,pY);
       rotorblatt3 = new Rotorblatt(pX,pY);
     }
+    
+    public void drehen() {
+    
+    }
 
   // end methods
 } // end of Rotor

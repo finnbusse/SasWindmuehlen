@@ -18,7 +18,7 @@ public class Windkraftanlage {
   // end attributes
 
 
-  public Windkraftanlage(double px, double py) 
+  public Windkraftanlage(double px, double py){
     turm = new Turm(px, py);
     rotor = new Rotor(px + 50, py - 10);
 
