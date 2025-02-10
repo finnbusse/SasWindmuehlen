@@ -36,9 +36,10 @@ public class Rotor {
     }
 
     public void setX(double pX) {
+        
     }
 
-    public void setY(double v) {
+    public void setY(double pY) {
     }
 
     // end methods
