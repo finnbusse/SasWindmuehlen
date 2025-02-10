@@ -21,7 +21,7 @@ public class Windkraftanlage {
     rotor = new Rotor(pX + 10, pY - 10);
 
     this.initX = pX;
-    this.initY = pY;
+    this.intY = pY;
   }
 
 
@@ -41,6 +41,6 @@ public class Windkraftanlage {
 
   public void setY(double pY) {
     turm.setY(pY);
-    rotor.setY(pY - 10);
+    rotor.stY(pY - 10);
   }
 }

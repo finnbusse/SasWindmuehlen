@@ -26,13 +26,13 @@ public class Rotor {
         rotorblatt3 = new Rotorblatt(pX,pY);
         rotorblatt1.drehen(0);
         rotorblatt2.drehen(120);
-        rotorblatt3.drehen(pX, pY, 240);
+        rotorblatt3.drehen(240);
         x = pX;
         y = pY;
     }
 
-    public void drehen(double pA, double pB, double pC) {
-        rotorblatt1.drehen(pA, pB, pC);
+    public void drehen(pA) {
+        rotorblatt1.drehen(pA);
     }
 
     public void setX(double pX) {
