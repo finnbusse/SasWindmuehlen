@@ -24,9 +24,11 @@ public class Windkraftanlage {
 
   }
 
+
   public double getX() {
     return pX;
   }
+
 
   public double getY() {
     return pY;

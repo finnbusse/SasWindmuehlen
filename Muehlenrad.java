@@ -21,7 +21,7 @@ public class Muehlenrad {
         muehlenfluegel1 = new Muehlenfluegel(pX,pY);
         muehlenfluegel2 = new Muehlenfluegel(pX+40,pY+40); muehlenfluegel2.drehen(90);
         muehlenfluegel3 = new Muehlenfluegel(pX+0,pY+80); muehlenfluegel3.drehen(180);
-        muehlenfluegel4 = new Muehlenfluegel(pX-50,pY+10); muehlenfluegel4.drehen(270);
+        muehlenfluegel4 = new Muehlenfluegel(pX-40,pY+10); muehlenfluegel4.drehen(270);
 
     }      
     // end attributes
