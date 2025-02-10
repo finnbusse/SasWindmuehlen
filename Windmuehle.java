@@ -18,7 +18,9 @@ public class Windmuehle {
       muehlenrad = new Muehlenrad(px+50,py-10);
   }
   // start methods
-
+    public void drehen(double grad){
+      muehlenrad.drehen(grad);
+    }
   // end methods
 } // end of Windmuehle
 

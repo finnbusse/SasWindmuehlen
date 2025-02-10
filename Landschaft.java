@@ -39,7 +39,7 @@ public class Landschaft {
     
     public void windmuehleDrehen(){
         for (int i = 0; i < 100; i++){
-            windmuehle1.turn(5);
+            windmuehle1.(5);
             fenster.wait(20);
         }
     
