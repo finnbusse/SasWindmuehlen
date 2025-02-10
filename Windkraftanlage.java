@@ -6,7 +6,7 @@ import java.awt.Color;
  *
  * Description
  *
- * @version 1.0 from 03.02.2025
+ * @version 1.1 from 10.02.2025
  * @author Finn Busse
  */
 

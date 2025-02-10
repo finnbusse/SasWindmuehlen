@@ -1,7 +1,8 @@
 import sas.*;
 import java.awt.Color; 
 private class Muehlenfluegel {
-  Rectangle fluegel;
+  Rectangle fluegel1;
+  
   Rectangle raster[];
   private Muehlenfluegel(double x,double y) {
       fluegel = new Rectangle(x,y+20,5,80);
