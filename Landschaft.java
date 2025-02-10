@@ -17,6 +17,8 @@ public class Landschaft {
     private Windkraftanlage windrad1,windrad2,windrad3;
     View fenster;
 
+    public static void main(String[] args) {new Landschaft();}
+
   
     // end attributes
     // start methods
