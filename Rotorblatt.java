@@ -15,7 +15,6 @@ public class Rotorblatt {
   
     public Rotorblatt(double pX,double pY){
         blatt = new Ellipse(pX,pY,100,30,Color.BLUE);
-    
     }
   // start methods
   
