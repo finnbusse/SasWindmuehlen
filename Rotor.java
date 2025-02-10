@@ -9,13 +9,12 @@ import java.awt.Color;
  */
 
 public class Rotor {
-  
-  // start attributes
-  private Rotorblatt rotorblatt1,rotorblatt2,rotorblatt3;
-  public double pX, pY;
-  View view;
-  
-  
+
+    // start attributes
+    private Rotorblatt rotorblatt1,rotorblatt2,rotorblatt3;
+    public double pX, pY;
+    View view;
+
     public Rotor() {
         pX = 100;
         pY = 100;
@@ -27,19 +26,19 @@ public class Rotor {
         }
     }
     // end attributes
-  
-  // start methods
-  public void Rotor(double pX, double pY){
-      rotorblatt1 = new Rotorblatt(pX,pY);
-      rotorblatt2 = new Rotorblatt(pX+200,pY);
-      rotorblatt3 = new Rotorblatt(pX+400,pY);
+
+    // start methods
+    public void Rotor(double pX, double pY){
+        rotorblatt1 = new Rotorblatt(pX,pY);
+        rotorblatt2 = new Rotorblatt(pX+200,pY);
+        rotorblatt3 = new Rotorblatt(pX+400,pY);
     }
-    
+
     public void drehen(double pA, double pB) {
         rotorblatt1.drehen(pA, pB);
         rotorblatt2.drehen(pA, pB);
         rotorblatt3.drehen(pA, pB);
     }
 
-  // end methods
+    // end methods
 } // end of Rotor
