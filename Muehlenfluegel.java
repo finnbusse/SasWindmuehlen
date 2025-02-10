@@ -15,6 +15,3 @@ private class Muehlenfluegel {
       fluegel.turn(grad);
   }
 }
-for (int i = 0; i < sterne.length; i++){
-            sterne[i] = new Rectangle(Math.random()*800,Math.random()*600,1,1,Color.WHITE);
-        }
