@@ -11,6 +11,7 @@ public class Windmuehle {
   // start attributes
   private Muehlenhaus muehlenhaus;
   private Muehlenrad  muehlenrad;
+  
   // end attributes
   public Windmuehle(double px,double py){
       muehlenhaus = new Muehlenhaus(px,py);

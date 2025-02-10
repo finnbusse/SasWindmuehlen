@@ -14,18 +14,23 @@ public class Windkraftanlage {
   private Turm turm;
   private Rotor rotor;
 
+  private double initX, initY;
+
   public Windkraftanlage(double pX, double pY) {
     turm = new Turm(pX, pY);
     rotor = new Rotor(pX + 50, pY - 10);
+
+    this.initX = pX;
+    this.initY = pY;
   }
 
 
   public double getX() {
-    return pX;
+    return initX;
   }
 
   public double getY() {
-    return pY;
+    return initY;
   }
 
 
