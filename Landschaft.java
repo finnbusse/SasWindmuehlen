@@ -38,7 +38,9 @@ public class Landschaft {
     }
     
     public void windmuehleDrehen(){
-    
+        for (int i = 0; i < 100; i++){
+        
+        }
     
     
     }
