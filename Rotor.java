@@ -21,7 +21,7 @@ public class Rotor {
         view = new View(1000,800);
         Rotor(pX, pY);
         for(int i = 0; i < 10000;i++) {
-            drehen(i, 0);
+            drehen(i, 0, 0);
             view.wait(5);
         }
     }
