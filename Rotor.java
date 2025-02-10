@@ -38,4 +38,4 @@ public class Rotor {
     }
 
   // end methods
-} // end 
+} // end of Rotor
