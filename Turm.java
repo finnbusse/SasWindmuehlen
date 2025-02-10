@@ -22,7 +22,7 @@ public class Turm {
         tuergriff = new Circle(px+4,py+174,1,new Color(160,160,160));
         rot = new Rectangle(px,py+100,12,12,new Color(240,30,30));
     }
-
+    
     public void setX(double pX) {
     }
 
