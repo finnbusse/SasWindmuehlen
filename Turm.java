@@ -10,7 +10,7 @@ import java.awt.Color;
 
 public class Turm {
     Rectangle turm,tuer,gruen0,gruen1,gruen2,gruen3,rot;
-    Circle tuergriff,turbine;
+    Circle tuergriff,turbine,licht1,licht2;
     boolean an = true;
     public Turm(double px,double py){
         turm = new Rectangle(px,py,12,180, new Color(202,202,202));
