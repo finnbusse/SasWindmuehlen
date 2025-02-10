@@ -15,4 +15,4 @@ public class Muehlenfluegel {
   public void drehen(double grad){
       fluegel1.turn(grad);
   }
-}
+}}
