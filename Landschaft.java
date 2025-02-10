@@ -28,9 +28,9 @@ public class Landschaft {
     public Landschaft(){
         fenster = new View(1200,800);
         hintergrund = new Picture(0,0,"landschaft.jpg");
-        windmuehle1 = new Windmuehle(200,400);
-        windmuehle2 = new Windmuehle(600,400);
-        windmuehle3 = new Windmuehle(1000,400);
+        windmuehle1 = new Windmuehle(200,350);
+        windmuehle2 = new Windmuehle(600,300);
+        windmuehle3 = new Windmuehle(1000,370);
 
         windrad1 = new Windkraftanlage(100,200);
         windrad2 = new Windkraftanlage(400,200);
@@ -41,11 +41,10 @@ public class Landschaft {
         for (int i = 0; i < 500; i++){
             windmuehle1.drehen(5);
             fenster.wait(30);
-        }
+        }*/
     
     
     }
     
     
-    // end methods
-} // end of Landschaft
+    // end methods} // end of Landschaft
