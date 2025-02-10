@@ -28,6 +28,8 @@ public class Muehlenrad {
     // start methods
 
     public void drehen(double pAngle){
+        
+        
         muehlenfluegel1.drehen(pAngle);
         muehlenfluegel2.drehen(pAngle);
         muehlenfluegel3.drehen(pAngle);
