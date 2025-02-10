@@ -14,7 +14,7 @@ public class Windmuehle {
   
   // end attributes
   public Windmuehle(double px,double py){
-      muehlenhaus = new Muehlenhaus(px+300,py-600);
+      muehlenhaus = new Muehlenhaus(px,py);
       muehlenrad = new Muehlenrad(px+50,py-10);
   }
   // start methods

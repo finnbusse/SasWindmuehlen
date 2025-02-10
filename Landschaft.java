@@ -28,7 +28,7 @@ public class Landschaft {
     public Landschaft(){
         fenster = new View(1200,800);
         hintergrund = new Picture(0,0,"landschaft.jpg");
-        windmuehle1 = new Windmuehle(200,30);
+        windmuehle1 = new Windmuehle(200,300);
         windmuehle2 = new Windmuehle(600,200);
         windmuehle3 = new Windmuehle(1000,100);
 
