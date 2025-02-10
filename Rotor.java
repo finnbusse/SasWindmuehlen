@@ -35,7 +35,7 @@ public class Rotor {
         rotorblatt1.drehen(pA, pB, pC);
     }
 
-    public void setX(double v) {
+    public void setX(double pX) {
     }
 
     public void setY(double v) {
