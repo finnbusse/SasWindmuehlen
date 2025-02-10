@@ -14,6 +14,6 @@ public class Turm {
         Rectangle turm = new Rectangle(px,py,12,180, new Color(232,232,232));
         Circle turbine = new Circle(px-7,py-7,14,new Color(232,232,232));
         Rectangle tuer = new Rectangle(px+4,py+168,4,12);
-        
+        Circle tuergriff = new Circle(px+4,py+174,1,new Color(232,232,232));
     }
 } 
