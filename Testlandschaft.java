@@ -1,6 +1,5 @@
 import sas.*;
 
-
 public class Testlandschaft {
 
 
