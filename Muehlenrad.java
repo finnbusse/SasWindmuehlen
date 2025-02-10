@@ -34,4 +34,4 @@ public class Muehlenrad {
         muehlenfluegel4.drehen(pAngle);
     }
     // end methods
-} // end of Wi
+} // end of Windrad

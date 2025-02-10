@@ -12,7 +12,7 @@ public class Rotor {
   
   // start attributes
   private Rotorblatt rotorblatt1,rotorblatt2,rotorblatt3;
-  public double pX = 100, pY = 100;
+  public double pX, pY;
   View view;
   
   
