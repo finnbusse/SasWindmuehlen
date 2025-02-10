@@ -1,6 +1,6 @@
 import sas.*;
 import java.awt.Color; 
-private class Muehlenfluegel {
+public class Muehlenfluegel {
   Rectangle fluegel1;
   Rectangle fluegel2;
   Rectangle raster[];
