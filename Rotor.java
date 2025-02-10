@@ -14,7 +14,7 @@ public class Rotor {
   private Rotorblatt rotorblatt1,rotorblatt2,rotorblatt3;
   public double pX, pY;
 
-    public Rotor(double pX, double v1) {
+    public Rotor(double pX, double pY) {
     }
     // end attributes
   
