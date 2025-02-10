@@ -21,7 +21,6 @@ public class Rotor {
         for(int i = 0; i < 1000;i++) {
             drehen(0.5);
         }
-        view.wait(2);
     }
     // end attributes
   
