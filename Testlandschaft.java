@@ -8,6 +8,8 @@ public class Testlandschaft {
     Windkraftanlage testAnlage;
 
 
+    public static void main(String[] args) {new Testlandschaft();}
+
 
     public Testlandschaft() {
         testView = new View(1000,700);

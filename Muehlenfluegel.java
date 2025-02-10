@@ -7,7 +7,7 @@ private class Muehlenfluegel {
       fluegel = new Rectangle(x,y+20,5,80);
       fluegel = new Rectangle(x+25,y+20,5,80);
       for (int i=0; i < 9; i++) {
-          raster[]
+          raster[i] = new Rectangle(,,5,25)
       }
       
   }

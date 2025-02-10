@@ -15,8 +15,8 @@ public class Landschaft {
     private Windmuehle windmuehle2;
     private Windmuehle windmuehle3;
     private Windkraftanlage windrad1,windrad2,windrad3;
-    View fenster;
-    
+    private View fenster;
+    private Picture hintergrund;
     
     
 
@@ -27,6 +27,7 @@ public class Landschaft {
     // start methods
     public Landschaft(){
         fenster = new View(1000,800);
+        
         windmuehle1 = new Windmuehle(30,30);
         windmuehle2 = new Windmuehle(20,20);
         windmuehle3 = new Windmuehle(10,10);
