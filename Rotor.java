@@ -41,8 +41,8 @@ public class Rotor {
     
     public void drehen(double pA, double pB, double pC) {
         rotorblatt1.drehen(pA, pB);
-        rotorblatt2.drehen(pA, pB, pC);
-        rotorblatt3.drehen(pA, pB, pC);
+        rotorblatt2.drehen(pA, pB);
+        rotorblatt3.drehen(pA, pB);
     }
 
   // end methods
