@@ -22,7 +22,7 @@ public class Rotor {
         Rotor(pX, pY);
         for(int i = 0; i < 1000;i++) {
             drehen(0, 0, 1);
-            view.wait(2);
+            view.wait(5);
         }
     }
     // end attributes
