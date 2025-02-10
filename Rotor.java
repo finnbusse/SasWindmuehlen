@@ -15,7 +15,7 @@ public class Rotor {
     public double pX, pY;
 
     public Rotor(double pX, double pY) {
-        rotorBleatter(pX, pY);
+        rotorBlaetter(pX, pY);
     }
     // end attributes
 

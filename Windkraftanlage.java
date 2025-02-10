@@ -18,7 +18,7 @@ public class Windkraftanlage {
 
   public Windkraftanlage(double pX, double pY) {
     turm = new Turm(pX, pY);
-    rotor = new Rotor(pX + 50, pY - 10);
+    rotor = new Rotor(pX + 10, pY - 10);
 
     this.initX = pX;
     this.initY = pY;
