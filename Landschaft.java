@@ -37,7 +37,11 @@ public class Landschaft {
         windrad3 = new Windkraftanlage(700,200);
     }
     
+    public void windmuehleDrehen(){
     
+    
+    
+    }
     
     
     // end methods
