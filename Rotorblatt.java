@@ -20,7 +20,5 @@ public class Rotorblatt {
     {
         blatt.turn(pA,pB,pC);
     }
-    public void setX(double){
-    
-    }
+
 } 
