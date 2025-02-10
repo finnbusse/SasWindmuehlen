@@ -19,6 +19,5 @@ public class Rotorblatt {
   // start methods
   
   
-  
   // end methods
 } // end of Rotorblatt
