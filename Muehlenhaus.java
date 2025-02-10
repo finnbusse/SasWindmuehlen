@@ -12,11 +12,10 @@ public class Muehlenhaus {
 
     //start attributes
     Rectangle muehlenhaus;
-    
     // end attributes
 
     // start methods
-    public Muehlenhaus(double pX, ...){
+    public Muehlenhaus(double pX, double pY){
         // end methods
         muehlenhaus= new rectangle
         
