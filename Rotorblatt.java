@@ -10,18 +10,15 @@ import java.awt.Color;
  */
 
 public class Rotorblatt {
-  
+
     private Ellipse blatt;
     double pA,pB,pC;
     public Rotorblatt(double pX,double pY){
         blatt = new Ellipse(pX,pY,100,30,new Color(190,190,190));
     }
-  // start methods
+    // start methods
     public void drehen(double pA,double pB,double pC)
     {
         blatt.turn(pA,pB,pC);
     }
-  
-  
-  // end methods
 } // end of Rotorblatt

@@ -12,7 +12,7 @@ import java.awt.Color;
 public class Muehlenrad {
 
     // start attributes
-    private Muehlenfluegel muehlenfluegel1, 
+    public Muehlenfluegel muehlenfluegel1, 
     muehlenfluegel2, muehlenfluegel3, 
     muehlenfluegel4; //View fenster;
 
