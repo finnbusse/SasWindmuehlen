@@ -36,7 +36,7 @@ public class Rotor {
     }
 
     public void setX(double pX) {
-        
+        this.rotorblatt1.move
     }
 
     public void setY(double pY) {
