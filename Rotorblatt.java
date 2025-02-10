@@ -12,7 +12,7 @@ import java.awt.Color;
 public class Rotorblatt {
   
     private Ellipse blatt;
-    double pX,pY;
+    double pA,pY;
     public Rotorblatt(double pX,double pY){
         blatt = new Ellipse(pX,pY,100,30,Color.BLUE);
     }
