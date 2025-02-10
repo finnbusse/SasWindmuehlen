@@ -27,7 +27,8 @@ public class Rotor {
         rotorblatt1.drehen(pX, pY, 0);
         rotorblatt2.drehen(pX, pY, 120);
         rotorblatt3.drehen(pX, pY, 240);
-        
+        x = pX;
+        y = pY;
     }
 
     public void drehen(double pA, double pB, double pC) {
