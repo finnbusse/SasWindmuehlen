@@ -12,17 +12,14 @@ public class Rotor {
   
   // start attributes
   private Rotorblatt rotorblatt1,rotorblatt2,rotorblatt3;
-  double pX, pY;
+  public double pX, pY;
   // end attributes
   
   // start methods
-  
-  
-  
   public void Rotor(){
-      rotorblatt1=new Rotorblatt(pX,pY);
-      rotorblatt2=new Rotorblatt(pX,pY);
-      rotorblatt3=new Rotorblatt(pX,pY);
+      rotorblatt1 = new Rotorblatt(pX,pY);
+      rotorblatt2 = new Rotorblatt(pX,pY);
+      rotorblatt3 = new Rotorblatt(pX,pY);
     }
 
   // end methods
