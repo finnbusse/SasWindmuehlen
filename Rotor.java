@@ -15,12 +15,12 @@ public class Rotor {
     public double pX, pY;
 
     public Rotor(double pX, double pY) {
-        Rotor(pX, pY);
+        rotorBleatter(pX, pY);
     }
     // end attributes
 
     // start methods
-    public void Rotor(double pX, double pY){
+    public void rotorBlaetter(double pX, double pY){
         rotorblatt1 = new Rotorblatt(pX,pY);
         rotorblatt2 = new Rotorblatt(pX+200,pY);
         rotorblatt3 = new Rotorblatt(pX+400,pY);
