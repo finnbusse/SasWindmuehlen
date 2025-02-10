@@ -18,17 +18,17 @@ public class Windkraftanlage {
   // end attributes
 
 
-  public Windkraftanlage(double px, double py){
-    turm = new Turm(px, py);
-    rotor = new Rotor(px + 50, py - 10);
+  public Windkraftanlage(double pX, double pY){
+    turm = new Turm(pX, pY);
+    rotor = new Rotor(pX + 50, pY - 10);
 
   }
 
   public double getX() {
-    return px;
+    return pX;
   }
 
   public double getY() {
-    return py;
+    return pX;
   }
 }

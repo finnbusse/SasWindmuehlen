@@ -11,12 +11,12 @@ import java.awt.Color;
 public class Muehlenhaus {
 
     //start attributes
-    
+    rectangle
     // end attributes
 
     // start methods
     public Muehlenhaus(double pX, ...){
         // end methods
-        
+        muehlenhaus= new rectangle
         
     } }// end of Muehlenhaus

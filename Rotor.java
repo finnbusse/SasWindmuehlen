@@ -22,8 +22,10 @@ public class Rotor {
       rotorblatt3 = new Rotorblatt(pX,pY);
     }
     
-    public void drehen() {
-    
+    public void drehen(double pA) {
+        rotorblatt1.
+        rotorblatt2.
+        rotorblatt3.
     }
 
   // end methods
