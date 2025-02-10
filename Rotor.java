@@ -16,7 +16,6 @@ public class Rotor {
   View view;
   
   
-
     public Rotor() {
         pX = 100;
         pY = 100;
