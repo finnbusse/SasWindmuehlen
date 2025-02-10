@@ -17,15 +17,16 @@ public class Rotor {
 
     public Rotor(double pX, double pY) {
         view = new View(1000,800);
-        Rotor()
+        Rotor();
+        
     }
     // end attributes
   
   // start methods
   public void Rotor(){
       rotorblatt1 = new Rotorblatt(pX,pY);
-      rotorblatt2 = new Rotorblatt(pX,pY);
-      rotorblatt3 = new Rotorblatt(pX,pY);
+      rotorblatt2 = new Rotorblatt(pX+200,pY);
+      rotorblatt3 = new Rotorblatt(pX+400,pY);
     }
     
     public void drehen(double pA) {
