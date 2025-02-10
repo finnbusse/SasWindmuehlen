@@ -19,7 +19,7 @@ public class Rotor {
 
     public Rotor(double pX, double pY) {
         view = new View(1000,800);
-        Rotor();
+        Rotor(pX, pY);
         for(int i = 0; i < 1000;i++) {
             drehen(0, 0, 1);
             view.wait(2);
@@ -28,7 +28,7 @@ public class Rotor {
     // end attributes
   
   // start methods
-  public void Rotor(){
+  public void Rotor(double pX, double pY){
       rotorblatt1 = new Rotorblatt(pX,pY);
       rotorblatt2 = new Rotorblatt(pX+200,pY);
       rotorblatt3 = new Rotorblatt(pX+400,pY);
