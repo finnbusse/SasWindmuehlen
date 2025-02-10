@@ -18,6 +18,8 @@ public class Rotor {
   
 
     public Rotor(double pX, double pY) {
+        pX = 100;
+        pY = 100;
         view = new View(1000,800);
         Rotor(pX, pY);
         for(int i = 0; i < 10000;i++) {

@@ -20,7 +20,7 @@ public class Muehlenrad {
         new View(1000,800,"TEST");
         muehlenfluegel1 = new Muehlenfluegel(pX,pY);
         muehlenfluegel2 = new Muehlenfluegel(pX+40,pY+40); muehlenfluegel2.drehen(90);
-        muehlenfluegel3 = new Muehlenfluegel(pX+10,pY+80); muehlenfluegel3.drehen(180);
+        muehlenfluegel3 = new Muehlenfluegel(pX+0,pY+80); muehlenfluegel3.drehen(180);
         muehlenfluegel4 = new Muehlenfluegel(pX+200,pY+200); muehlenfluegel4.drehen(300);
 
     }      
