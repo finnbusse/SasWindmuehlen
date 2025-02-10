@@ -14,7 +14,7 @@ public class Landschaft {
     private Windmuehle windmuehle1;
     private Windmuehle windmuehle2;
     private Windmuehle windmuehle3;
-    //private Windkraftanlage windrad1,windrad2,windrad3;
+    private Windkraftanlage windrad1,windrad2,windrad3;
     private View fenster;
     private Picture hintergrund;
     
@@ -32,9 +32,9 @@ public class Landschaft {
         windmuehle2 = new Windmuehle(500,20);
         windmuehle3 = new Windmuehle(700,10);
 
-        //windrad1 = new Windkraftanlage(60,60);
-        //windrad2 = new Windkraftanlage(50,50);
-        //windrad3 = new Windkraftanlage(40,40);
+        windrad1 = new Windkraftanlage(60,60);
+        windrad2 = new Windkraftanlage(50,50);
+        windrad3 = new Windkraftanlage(40,40);
     }
     // end methods
 } // end of Landschaft

@@ -10,7 +10,7 @@ public class Muehlenfluegel {
         fluegel2 = new Rectangle(x+25,y+20,5,60);
        // for (int i=0; i < 5; i++) {
         //    raster[i] = new Rectangle(i+10,y,5,25);
-       // }
+        // }
     }
 
     public void drehen(double grad){
