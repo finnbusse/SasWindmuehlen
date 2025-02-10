@@ -33,8 +33,8 @@ public class Landschaft {
         windmuehle3 = new Windmuehle(1000,400);
 
         windrad1 = new Windkraftanlage(100,200);
-        windrad2 = new Windkraftanlage(300,200);
-        windrad3 = new Windkraftanlage(500,200);
+        windrad2 = new Windkraftanlage(400,200);
+        windrad3 = new Windkraftanlage(700,200);
     }
     // end methods
 } // end of Landschaft
