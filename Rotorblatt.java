@@ -17,7 +17,7 @@ public class Rotorblatt {
         blatt = new Ellipse(pX,pY,100,30,Color.BLUE);
     }
   // start methods
-    public void drehen()
+    public void drehen(double pA)
     {
         blatt.turn(pA);
     }
