@@ -18,7 +18,13 @@ public class Turm {
         Rectangle gruen2 = new Rectangle(px,py+160,12,20,new Color(100,200,40));
         Rectangle gruen3 = new Rectangle(px,py+170,12,10,new Color(70,140,60));
         Rectangle tuer = new Rectangle(px+4,py+168,4,12,new Color(202,202,202));
-        Circle tuergriff = new Circle(px+4,py+174,1,new Color(242,242,242));
+        Circle tuergriff = new Circle(px+4,py+174,1,new Color(160,160,160));
         Rectangle rot = new Rectangle(px,py+100,12,12,new Color(240,30,30));
+    }
+
+    public void setX(double pX) {
+    }
+
+    public void setY(double pY) {
     }
 } 
