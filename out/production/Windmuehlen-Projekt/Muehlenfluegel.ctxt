@@ -1,3 +1,7 @@
 #BlueJ class context
 comment0.target=Muehlenfluegel
-numComments=1
+comment1.params=x\ y
+comment1.target=Muehlenfluegel(double,\ double)
+comment2.params=grad
+comment2.target=void\ drehen(double)
+numComments=3
