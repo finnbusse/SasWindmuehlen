@@ -29,7 +29,6 @@ public class Rotor {
     }
 
     public Rotor(double v, double v1) {
-    }
     // end attributes
   
   // start methods

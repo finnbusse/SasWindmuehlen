@@ -33,7 +33,7 @@ public class Muehlenrad {
         muehlenfluegel1.drehen(pAngle);
         muehlenfluegel2.drehen(pAngle);
         muehlenfluegel3.drehen(pAngle);
-        muehlenfluegel4.drehen(pAngle);
+        muehlenfluegel4.drehen(pAngle); }
     }
     // end methods
 } // end of Windrad
