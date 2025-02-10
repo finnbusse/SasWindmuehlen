@@ -9,10 +9,11 @@ import java.awt.Color;
  */
 
 public class Turm {
+Rectangle turm,gruen0,gruen1,gruen2,gruen3,rot;
     
     public Turm(double px,double py){
         View fenster = new View(700,800);
-        Rectangle turm = new Rectangle(px,py,12,180, new Color(202,202,202));
+        turm = new Rectangle(px,py,12,180, new Color(202,202,202));
         Circle turbine = new Circle(px-7,py-7,14,new Color(202,202,202));
         Rectangle gruen0 = new Rectangle(px,py+140,12,40,new Color(150,230,50));
         Rectangle gruen1 = new Rectangle(px,py+150,12,30,new Color(130,220,70));

@@ -19,6 +19,6 @@ public class Muehlenhaus {
     // start methods
     public Muehlenhaus(double pX, double pY){
         // end methods
-        muehlenhaus= new Rectangle (pX +100,pY -100,200,300); 
+        muehlenhaus= new Rectangle (pX +200,pY -300,200,300); 
     }
     }// end of Muehlenhaus
