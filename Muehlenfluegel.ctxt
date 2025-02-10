@@ -1,5 +1,5 @@
 #BlueJ class context
 comment0.target=Muehlenfluegel
-comment1.params=
-comment1.target=Muehlenfluegel()
+comment1.params=x\ y
+comment1.target=Muehlenfluegel(double,\ double)
 numComments=2

@@ -11,7 +11,8 @@ import java.awt.Color;
 public class Muehlenhaus {
 
     //start attributes
-    rectangle
+    Rectangle muehlenhaus;
+    
     // end attributes
 
     // start methods
