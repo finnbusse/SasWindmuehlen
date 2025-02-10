@@ -1,4 +1,6 @@
 #BlueJ class context
 comment0.target=Turm
 comment0.text=\r\n\r\n\ Description\r\n\r\n\ @version\ 1.0\ from\ 02.02.2025\r\n\ @author\ \r\n
-numComments=1
+comment1.params=px\ py
+comment1.target=Turm(double,\ double)
+numComments=2
