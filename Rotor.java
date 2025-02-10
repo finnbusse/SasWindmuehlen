@@ -33,7 +33,7 @@ public class Rotor {
     }
     
     public void drehen(double pA, double pB, double pC) {
-        rotorblatt1.drehen(pA);
+        rotorblatt1.drehen(pA, pB, pC);
         rotorblatt2.drehen(pA);
         rotorblatt3.drehen(pA);
     }

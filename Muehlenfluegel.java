@@ -11,7 +11,7 @@ private class Muehlenfluegel {
           //raster[i] = new Rectangle(,,5,25);
       }
       
-  }
+
   public void drehen(double grad){
       fluegel.turn(grad);
   }
