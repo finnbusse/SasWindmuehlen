@@ -18,7 +18,9 @@ public class Rotor {
     public Rotor(double pX, double pY) {
         view = new View(1000,800);
         Rotor();
+        for(int i = 0; i < 1000;i++) {
         
+        }
     }
     // end attributes
   
@@ -36,4 +38,4 @@ public class Rotor {
     }
 
   // end methods
-} // end of Rotor
+} // end 
