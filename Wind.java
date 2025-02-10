@@ -2,6 +2,6 @@ import sas.*;
 
 public class Wind {
 
+    double windspeed;
 
-    public static void main(String[] args) {}
 }
