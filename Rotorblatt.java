@@ -11,9 +11,10 @@ import java.awt.Color;
 
 public class Rotorblatt {
     private Ellipse blatt;
-    double pA,pB,pC;
+    double x,y;
     public Rotorblatt(double pX,double pY){
         blatt = new Ellipse(pX,pY,100,30,new Color(190,190,190));
+        x=pXX
     }
     
     public void drehen(double pA,double pB,double pC)
