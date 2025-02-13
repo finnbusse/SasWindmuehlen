@@ -10,11 +10,12 @@ import java.awt.Color;
 
 public class Turm {
     Rectangle turm,tuer,gruen0,gruen1,gruen2,gruen3,rot;
-    Circle tuergriff,turbine,licht1,licht2;
+    Circle tuergriff,turbine,licht1,licht2,turbine2;
 
     public Turm(double px,double py){
         turm = new Rectangle(px,py,12,180, new Color(202,202,202));
         turbine = new Circle(px-7,py-7,14,new Color(202,202,202));
+        turbine2 = new Circle
         gruen0 = new Rectangle(px,py+140,12,40,new Color(150,230,50));
         gruen1 = new Rectangle(px,py+150,12,30,new Color(130,220,70));
         gruen2 = new Rectangle(px,py+160,12,20,new Color(100,200,40));
