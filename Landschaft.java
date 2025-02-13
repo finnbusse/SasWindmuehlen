@@ -1,16 +1,8 @@
-  import sas.*;
+import sas.*;
 import java.awt.Color;
-/**
- *
- * Description
- *
- * @version 1.0 from 02.02.2025
- * @author 
- */
 
 public class Landschaft {
 
-    // start attributes
     private Windmuehle windmuehle1;
     private Windmuehle windmuehle2;
     private Windmuehle windmuehle3;
@@ -19,18 +11,9 @@ public class Landschaft {
     private Picture hintergrund;
     private Wind wind;
     
-    
-
-    public static void main(String[] args) {new Landschaft();}
-
-  
-    // end attributes
-    // start methods
     public Landschaft(){
         fenster = new View(1200,800);
         wind = new Wind();
-    
-        
         hintergrund = new Picture(0,0,"landschaft.jpg");
         windmuehle1 = new Windmuehle(200,350,wind);
         windmuehle2 = new Windmuehle(750,270,wind);

@@ -1,5 +1,4 @@
 import sas.*;
-import java.awt.Color;
 
 public class ThreadLandschaft {
     private Windmuehle windmuehle1;
@@ -8,9 +7,10 @@ public class ThreadLandschaft {
     private Windkraftanlage windrad1, windrad2, windrad3;
     private View fenster;
     private Picture hintergrund;
-    private DrehThread drehen;
-    private WindThread wind;
-    private volatile double windSpeed = 1.0;
+    private Wind wind;
+    private DrehThread drehenThread;
+    private WindThread windThread;
+
 
     public static void main(String[] args) {
         ThreadLandschaft landschaft = new ThreadLandschaft();
@@ -33,10 +33,10 @@ public class ThreadLandschaft {
     }
 
     public void startSimulation() {
-        drehen = new DrehThread();
-        wind = new WindThread();
-        drehen.start();
-        wind.start();
+        drehenThread = new DrehThread();
+        windThread = new WindThread();
+        drehenThread.start();
+        windThread.start();
     }
 
     private double berechneWindGeschwindigkeit() {
