@@ -21,9 +21,9 @@ public class Muehlenrad {
         //fenster=new View(1000,800,"TEST");
         wind = pWind;
         muehlenfluegel1 = new Muehlenfluegel(pX,pY);
-        muehlenfluegel2 = new Muehlenfluegel(pX+40,pY+40); muehlenfluegel2.drehen(90);
-        muehlenfluegel3 = new Muehlenfluegel(pX+0,pY+80); muehlenfluegel3.drehen(180);
-        muehlenfluegel4 = new Muehlenfluegel(pX-40,pY+40); muehlenfluegel4.drehen(270);
+        muehlenfluegel2 = new Muehlenfluegel(pX+0,pY+0); muehlenfluegel2.drehen(90);
+        muehlenfluegel3 = new Muehlenfluegel(pX+0,pY+0); muehlenfluegel3.drehen(180);
+        muehlenfluegel4 = new Muehlenfluegel(pX-0,pY+0); muehlenfluegel4.drehen(270);
 
     }      
     // end attributes

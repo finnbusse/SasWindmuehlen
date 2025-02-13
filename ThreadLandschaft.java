@@ -32,7 +32,6 @@ public class ThreadLandschaft {
         windrad2 = new Windkraftanlage(440,300,wind);
         windrad3 = new Windkraftanlage(980,270,wind);
 
-
         startSimulation();
     }
 
@@ -54,9 +53,9 @@ public class ThreadLandschaft {
                 windmuehle1.drehen(5 * windSpeed);
                 windmuehle2.drehen(5 * windSpeed);
                 windmuehle3.drehen(5 * windSpeed);
-//                windrad1.drehen(5 * windSpeed);
-//                windrad2.drehen(5 * windSpeed);
-//                windrad3.drehen(5 * windSpeed);
+                windrad1.drehen(5 * windSpeed);
+                windrad2.drehen(5 * windSpeed);
+                windrad3.drehen(5 * windSpeed);
                 try {
                     Thread.sleep(5);
                 } catch (InterruptedException e) {
@@ -73,7 +72,7 @@ public class ThreadLandschaft {
             while (true) {
                 windSpeed = berechneWindGeschwindigkeit();
                 try {
-                    Thread.sleep(250);
+                    Thread.sleep(1000);
                 } catch (InterruptedException e) {
                     Thread.currentThread().interrupt();
                     break;

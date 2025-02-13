@@ -9,7 +9,7 @@ public class Wind {
     
     public void setWindstaerke(int pWindstaerke){
         windstaerke = pWindstaerke;
-        
+        System.out.println("Die Windst�rke wurde auf " + windstaerke);
     }
 
     public int getWindstaerke(){
