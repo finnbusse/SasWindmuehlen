@@ -3,9 +3,13 @@ import sas.*;
 public class Wind {
 
     
-    double windstaerke;
+    private int windstaerke;
     
-    public Wind(){}
+    public Wind(){
+        
+        
+    }
+    
     
 
 }

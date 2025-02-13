@@ -2,7 +2,7 @@
 comment0.target=Rotor
 comment0.text=\r\n\r\n\ Description\r\n\r\n\ @version\ 1.0\ from\ 02.02.2025\r\n\ @author\ \r\n
 comment1.params=pX\ pY\ pWind
-comment1.target=Rotor(double,\ double,\ double)
+comment1.target=Rotor(double,\ double,\ Wind)
 comment2.params=pX\ pY
 comment2.target=void\ rotorBlaetter(double,\ double)
 comment3.params=pA

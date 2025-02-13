@@ -16,7 +16,7 @@ public class Windmuehle {
   // end attributes
   public Windmuehle(double px,double py, Wind pWind){
       this.wind = pWind;
-      muehlenhaus = new Muehlenhaus(px,py+75);
+      muehlenhaus = new Muehlenhaus(px-90,py-20);
       muehlenrad = new Muehlenrad(px+50,py-10, wind);
   }
   // start methods
