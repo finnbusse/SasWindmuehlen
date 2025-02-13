@@ -14,7 +14,8 @@ public class Rotorblatt {
     double x,y;
     public Rotorblatt(double pX,double pY){
         blatt = new Ellipse(pX,pY,100,30,new Color(190,190,190));
-        x=pX;y=pY;
+        x=pX;
+        y=pY;
     }
     
     public void drehen(double pA)
