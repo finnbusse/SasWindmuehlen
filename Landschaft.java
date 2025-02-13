@@ -45,6 +45,6 @@ public class Landschaft {
     
     
     }
-    
+
     
     // end methods} // end of Landschaft
