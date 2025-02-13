@@ -1,8 +1,8 @@
 #BlueJ class context
 comment0.target=Muehlenrad
 comment0.text=\r\n\r\n\ Description\r\n\r\n\ @version\ 1.0\ from\ 02.02.2025\r\n\ @author\ \r\n
-comment1.params=pX\ pY
-comment1.target=Muehlenrad(double,\ double)
+comment1.params=pX\ pY\ pWind
+comment1.target=Muehlenrad(double,\ double,\ Wind)
 comment2.params=pAngle
 comment2.target=void\ drehen(double)
 numComments=3

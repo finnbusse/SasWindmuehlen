@@ -15,9 +15,11 @@ public class Muehlenrad {
     private Muehlenfluegel muehlenfluegel1, 
     muehlenfluegel2, muehlenfluegel3, 
     muehlenfluegel4; //View fenster;
+    Wind wind;
 
-    public Muehlenrad(double pX,double pY){
+    public Muehlenrad(double pX,double pY, Wind pWind){
         //fenster=new View(1000,800,"TEST");
+        wind = pWind;
         muehlenfluegel1 = new Muehlenfluegel(pX,pY);
         muehlenfluegel2 = new Muehlenfluegel(pX+40,pY+40); muehlenfluegel2.drehen(90);
         muehlenfluegel3 = new Muehlenfluegel(pX+0,pY+80); muehlenfluegel3.drehen(180);

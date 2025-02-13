@@ -13,9 +13,9 @@ public class Windmuehle {
   private Muehlenrad  muehlenrad;
   
   // end attributes
-  public Windmuehle(double px,double py){
+  public Windmuehle(double px,double py, Wind pWind){
       muehlenhaus = new Muehlenhaus(px,py+75);
-      muehlenrad = new Muehlenrad(px+50,py-10);
+      muehlenrad = new Muehlenrad(px+50,py-10, pWind);
   }
   // start methods
     public void drehen(double grad){

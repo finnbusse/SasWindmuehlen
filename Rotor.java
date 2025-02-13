@@ -13,7 +13,6 @@ public class Rotor {
     // start attributes
     private Rotorblatt rotorblatt1,rotorblatt2,rotorblatt3;
     public double x, y;
-    
 
     public Rotor(double pX, double pY, double pWind) {
         rotorBlaetter(pX, pY);
@@ -34,6 +33,8 @@ public class Rotor {
 
     public void drehen(double pA) {
         rotorblatt1.drehen(pA);
+        rotorblatt2.drehen(pA);
+        rotorblatt3.drehen(pA);
     }
 
     public void setX(double pX) {
