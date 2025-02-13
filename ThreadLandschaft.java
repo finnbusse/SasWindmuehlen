@@ -58,7 +58,7 @@ public class ThreadLandschaft {
 //                windrad2.drehen(5 * windSpeed);
 //                windrad3.drehen(5 * windSpeed);
                 try {
-                    Thread.sleep(30);
+                    Thread.sleep(5);
                 } catch (InterruptedException e) {
                     Thread.currentThread().interrupt();
                     break;
@@ -73,7 +73,7 @@ public class ThreadLandschaft {
             while (true) {
                 windSpeed = berechneWindGeschwindigkeit();
                 try {
-                    Thread.sleep(500);
+                    Thread.sleep(250);
                 } catch (InterruptedException e) {
                     Thread.currentThread().interrupt();
                     break;

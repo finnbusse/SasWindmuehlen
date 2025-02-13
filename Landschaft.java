@@ -11,8 +11,8 @@ public class Landschaft {
     private Picture hintergrund;
     private Wind wind;
 
-    public static void main(String[] args) {new Landschaft();}
-    
+//    public static void main(String[] args) {new Landschaft();}
+
     public Landschaft(){
         fenster = new View(1200,800);
         wind = new Wind();
@@ -25,15 +25,13 @@ public class Landschaft {
         windrad2 = new Windkraftanlage(440,300,wind);
         windrad3 = new Windkraftanlage(980,270,wind);
     }
-    
+
     public void windmuehleDrehen(){
-        while(!fenster.keyPressed()){
-            windmuehle1.drehen(5);
+        while(!fenster.keyPressed(' ') {
             fenster.wait(30);
         }
-    
-    
-    }
 
-    
-    // end methods} // end of Landschaft
+    }
+}
+
+// end methods} // end of Landschaft

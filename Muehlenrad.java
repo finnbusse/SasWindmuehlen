@@ -31,10 +31,10 @@ public class Muehlenrad {
 
     public void drehen(double pAngle){
         
-        muehlenfluegel1.drehen(pAngle);
-        muehlenfluegel2.drehen(pAngle);
-        muehlenfluegel3.drehen(pAngle);
-        muehlenfluegel4.drehen(pAngle); 
+        muehlenfluegel1.drehen(wind.getWindstaerke());
+        muehlenfluegel2.drehen(wind.getWindstaerke());
+        muehlenfluegel3.drehen(wind.getWindstaerke());
+        muehlenfluegel4.drehen(wind.getWindstaerke()); 
     }
     // end methods
 } // end of Windrad
