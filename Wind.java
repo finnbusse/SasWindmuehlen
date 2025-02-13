@@ -6,9 +6,10 @@ public class Wind {
     public Wind(){
         windstaerke = 2;
     }
-
+    
     public void setWindstaerke(int pWindstaerke){
         windstaerke = pWindstaerke;
+        
     }
 
     public int getWindstaerke(){

@@ -44,7 +44,7 @@ public class ThreadLandschaft {
     }
 
     private double berechneWindGeschwindigkeit() {
-        return 0.5 + Math.random();
+        return Tools.randomNumber(1,20);
     }
 
     private class DrehThread extends Thread {

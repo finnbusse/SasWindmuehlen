@@ -15,7 +15,7 @@ public class Turm {
     public Turm(double px,double py){
         turm = new Rectangle(px,py,12,180, new Color(202,202,202));
         turbine = new Circle(px-7,py-7,14,new Color(202,202,202));
-        turbine2 = new Circle(px-7,py-7,14,new Color(190,190,190));
+        turbine2 = new Circle(px-11,py-11,10,new Color(190,190,190));
         gruen0 = new Rectangle(px,py+140,12,40,new Color(150,230,50));
         gruen1 = new Rectangle(px,py+150,12,30,new Color(130,220,70));
         gruen2 = new Rectangle(px,py+160,12,20,new Color(100,200,40));
