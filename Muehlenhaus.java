@@ -18,7 +18,6 @@ public class Muehlenhaus {
 
     // start methods
     public Muehlenhaus(double pX, double pY){
-        
         // end methods
         Rectangle base = new Rectangle(200, 250, 200, 150, Color.BLACK);
         
