@@ -38,6 +38,7 @@ public class Rotor {
         rotorblatt2.drehen(wind.getWindstaerke());
         rotorblatt3.drehen(wind.getWindstaerke());
     }
+    
 
     public void setX(double pX) {
     }
