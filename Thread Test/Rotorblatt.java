@@ -11,10 +11,10 @@ import java.awt.Color;
 
 public class Rotorblatt {
     private Ellipse blatt;
-    private Ellipse kern;
+    private Rectangle kern;
     double x,y;
     public Rotorblatt(double pX,double pY){
-        kern = new Ellipse(pX,pY,50,15,new Color(190,190,190));
+        kern = new Rectangle(pX,pY,100,15,new Color(190,190,190));
         blatt = new Ellipse(pX,pY,100,15,new Color(190,190,190));
         x=pX;
         y=pY;

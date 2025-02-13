@@ -1,0 +1,127 @@
+﻿[Files]
+File0=Landschaft.java
+File1=Muehlenfluegel.java
+File2=Muehlenhaus.java
+File3=Muehlenrad.java
+File4=Rotor.java
+File5=Rotorblatt.java
+File6=Turm.java
+File7=Windkraftanlage.java
+File8=Windmuehle.java
+
+[Box:  - Landschaft]
+X=73
+Y=39
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=1
+FontSize=13
+FontName=Segoe UI
+
+[Box:  - Muehlenfluegel]
+X=869
+Y=296
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=1
+FontSize=13
+FontName=Segoe UI
+
+[Box:  - Muehlenhaus]
+X=651
+Y=294
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=1
+FontSize=13
+FontName=Segoe UI
+
+[Box:  - Muehlenrad]
+X=796
+Y=45
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=1
+FontSize=13
+FontName=Segoe UI
+
+[Box:  - Rotor]
+X=576
+Y=368
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=1
+FontSize=13
+FontName=Segoe UI
+
+[Box:  - Rotorblatt]
+X=871
+Y=421
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=1
+FontSize=13
+FontName=Segoe UI
+
+[Box:  - Turm]
+X=123
+Y=433
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=1
+FontSize=13
+FontName=Segoe UI
+
+[Box:  - Windkraftanlage]
+X=113
+Y=265
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=1
+FontSize=13
+FontName=Segoe UI
+
+[Box:  - Windmuehle]
+X=457
+Y=83
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=1
+FontSize=13
+FontName=Segoe UI
+
+[Diagram]
+comments=0
+OffsetX=0
+OffsetY=0
+Visibility=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=1
+ShowConnections=0
+Fontname=Segoe UI
+Fontsize=13
+ShowObjectDiagram=0
+
+[Connections]
+V0=Landschaft#Windmuehle#AssociationDirected####0#0#0###0#0
+V1=Landschaft#Windkraftanlage#AssociationDirected####0#0#0###0#0
+V2=Muehlenrad#Muehlenfluegel#AssociationDirected####0#0#0###0#0
+V3=Rotor#Rotorblatt#AssociationDirected####0#0#0###0#0
+V4=Windkraftanlage#Turm#AssociationDirected####0#0#0###0#0
+V5=Windkraftanlage#Rotor#AssociationDirected####0#0#0###0#0
+V6=Windmuehle#Muehlenhaus#AssociationDirected####0#0#0###0#0
+V7=Windmuehle#Muehlenrad#AssociationDirected####0#0#0###0#0
+
+[Interactive]
+I0=
+

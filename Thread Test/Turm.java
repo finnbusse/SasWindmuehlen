@@ -13,6 +13,7 @@ public class Turm {
     Circle tuergriff,turbine,licht1,licht2;
 
     public Turm(double px,double py){
+        View fenster = new View(800,800);
         turm = new Rectangle(px,py,12,180, new Color(202,202,202));
         turbine = new Circle(px-7,py-7,14,new Color(202,202,202));
         gruen0 = new Rectangle(px,py+140,12,40,new Color(150,230,50));
@@ -23,9 +24,17 @@ public class Turm {
         tuergriff = new Circle(px+4,py+174,1,new Color(160,160,160));
         rot = new Rectangle(px,py+100,12,12,new Color(240,30,30));
 
-        
-        
-        
+        licht1 = new Circle(px,py-5,2,new Color(255,0,0));
+        licht2 = new Circle(px+12,py-5,2,new Color(255,0,0));
+        boolean an = true;
+        while(an){
+            licht1.setHidden(false);
+            licht2.setHidden(false);
+            fenster.wait(1000);
+            licht1.setHidden(true);
+            licht2.setHidden(true);
+            fenster.wait(1000);
+        }
     }
 
     public void setX(double pX) {
