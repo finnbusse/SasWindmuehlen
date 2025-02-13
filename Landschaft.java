@@ -1,4 +1,4 @@
-import sas.*;
+##import sas.*;
 import java.awt.Color;
 
 public class Landschaft {
@@ -11,7 +11,7 @@ public class Landschaft {
     private Picture hintergrund;
     private Wind wind;
 
-//    public static void main(String[] args) {new Landschaft();}
+    //    public static void main(String[] args) {new Landschaft();}
 
     public Landschaft(){
         fenster = new View(1200,800);
@@ -28,6 +28,10 @@ public class Landschaft {
 
     public void windmuehleDrehen(){
         while(!fenster.keyPressed(' ')) {
+            windmuehle1.drehen(0);
+            windmuehle2.drehen(0);
+            windmuehle3.drehen(0);
+            windrad1.drehen(0);
             
 
             

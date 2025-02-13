@@ -28,6 +28,11 @@ public class Windkraftanlage {
         this.initY = pY;
     }
 
+    public void drehen(double grad){
+        rotor.drehen(grad);
+    }
+
+
     public double getX() {
         return initX;
     }
