@@ -29,8 +29,7 @@ public class Landschaft {
     public void windmuehleDrehen(){
         while(!fenster.keyPressed(' ')) {
             
-            
-            
+
             
             fenster.wait(30);
         }
