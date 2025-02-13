@@ -3,15 +3,15 @@ import sas.*;
 public class Wind {
 
     private int windstaerke;
-    public Wind(int windstaerke){
-        
+    public Wind(){
+        windstaerke = 2;
     }
 
-    public void setWind(int pWindstaerke){
+    public void setWindstaerke(int pWindstaerke){
         windstaerke = pWindstaerke;
     }
 
-    public int getWindStaerke(){
+    public int getWindstaerke(){
         return windstaerke;
     }
 

@@ -10,10 +10,12 @@ public class Landschaft {
     private View fenster;
     private Picture hintergrund;
     private Wind wind;
+
+    public static void main(String[] args) {new Landschaft();}
     
     public Landschaft(){
         fenster = new View(1200,800);
-        wind = new Wind();
+        wind = new Wind(5);
         hintergrund = new Picture(0,0,"landschaft.jpg");
         windmuehle1 = new Windmuehle(200,350,wind);
         windmuehle2 = new Windmuehle(750,270,wind);
