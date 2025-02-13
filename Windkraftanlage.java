@@ -10,37 +10,35 @@ import java.awt.Color;
  */
 public class Windkraftanlage {
 
-  // Attribute
-  private Turm turm;
-  private Rotor rotor;
+    // Attribute
+    private Turm turm;
+    private Rotor rotor;
 
-  private double initX, initY;
+    private double initX, initY;
 
-  public Windkraftanlage(double pX, double pY) {
-    turm = new Turm(pX, pY);
-    rotor = new Rotor(pX + 10, pY - 10);
+    public Windkraftanlage(double pX, double pY,double pWind) {
+        turm = new Turm(pX, pY);
+        rotor = new Rotor(pX+14, pY+14,pWind);
 
-    this.initX = pX;
-    this.initY = pY;
-  }
+        this.initX = pX;
+        this.initY = pY;
+    }
 
+    public double getX() {
+        return initX;
+    }
 
-  public double getX() {
-    return initX;
-  }
+    public double getY() {
+        return initY;
+    }
 
-  public double getY() {
-    return initY;
-  }
+    public void setX(double pX) {
+        turm.setX(pX);
+        rotor.setX(pX + 50);
+    }
 
-
-  public void setX(double pX) {
-    turm.setX(pX);
-    rotor.setX(pX + 50);
-  }
-
-  public void setY(double pY) {
-    turm.setY(pY);
-    rotor.setY(pY - 10);
-  }
+    public void setY(double pY) {
+        turm.setY(pY);
+        rotor.setY(pY - 10);
+    }
 }
