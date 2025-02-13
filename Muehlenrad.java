@@ -31,11 +31,10 @@ public class Muehlenrad {
 
     public void drehen(double pAngle){
         
-        //for (int i = 0; i < 360; i+=5){
         muehlenfluegel1.drehen(pAngle);
         muehlenfluegel2.drehen(pAngle);
         muehlenfluegel3.drehen(pAngle);
-        muehlenfluegel4.drehen(pAngle); //fenster.wait(20);}
+        muehlenfluegel4.drehen(pAngle); 
     }
     // end methods
 } // end of Windrad

@@ -15,8 +15,7 @@ public class ThreadLandschaft {
 
 
     public static void main(String[] args) {
-        ThreadLandschaft landschaft = new ThreadLandschaft();
-        landschaft.startSimulation();
+        new ThreadLandschaft();
     }
 
     public ThreadLandschaft() {
@@ -32,6 +31,9 @@ public class ThreadLandschaft {
         windrad1 = new Windkraftanlage(100,250,wind);
         windrad2 = new Windkraftanlage(440,300,wind);
         windrad3 = new Windkraftanlage(980,270,wind);
+
+
+        startSimulation();
     }
 
     public void startSimulation() {
