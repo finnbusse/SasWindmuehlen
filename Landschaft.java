@@ -17,6 +17,7 @@ public class Landschaft {
     private Windkraftanlage windrad1,windrad2,windrad3;
     private View fenster;
     private Picture hintergrund;
+    private Wind wind;
     
     
 
@@ -27,15 +28,17 @@ public class Landschaft {
     // start methods
     public Landschaft(){
         fenster = new View(1200,800);
-        Wind pWind = new Wind();
+        wind = new Wind();
+    
+        
         hintergrund = new Picture(0,0,"landschaft.jpg");
-        windmuehle1 = new Windmuehle(200,350,pWind);
-        windmuehle2 = new Windmuehle(750,270,pWind);
-        windmuehle3 = new Windmuehle(1050,350,pWind);
+        windmuehle1 = new Windmuehle(200,350,wind);
+        windmuehle2 = new Windmuehle(750,270,wind);
+        windmuehle3 = new Windmuehle(1050,350,wind);
 
-        windrad1 = new Windkraftanlage(100,250,pWind);
-        windrad2 = new Windkraftanlage(440,300,pWind);
-        windrad3 = new Windkraftanlage(980,270,pWind);
+        windrad1 = new Windkraftanlage(100,250,wind);
+        windrad2 = new Windkraftanlage(440,300,wind);
+        windrad3 = new Windkraftanlage(980,270,wind);
     }
     
     /*public void windmuehleDrehen(){

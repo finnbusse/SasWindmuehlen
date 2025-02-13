@@ -16,9 +16,13 @@ public class Windkraftanlage {
 
     private double initX, initY;
 
-    public Windkraftanlage(double pX, double pY,double pWind) {
+    private Wind wind;
+
+    public Windkraftanlage(double pX, double pY, Wind pWind) {
         turm = new Turm(pX, pY);
         rotor = new Rotor(pX+8, pY, pWind);
+
+        wind = pWind;
 
         this.initX = pX;
         this.initY = pY;
