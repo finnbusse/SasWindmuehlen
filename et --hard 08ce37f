@@ -1,0 +1,150 @@
+[33m2f5dcf0[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m HEAD@{0}: checkout: moving from master to master
+[33m2f5dcf0[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m HEAD@{1}: Branch: renamed refs/heads/temp_branch to refs/heads/master
+[33m2f5dcf0[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m HEAD@{3}: commit (initial): Neuer Anfang: Alle aktuellen Änderungen
+[33m5f95ee7[m HEAD@{4}: commit: final
+[33m3047159[m HEAD@{5}: commit: 17.02.2025 beginn
+[33m998126c[m HEAD@{6}: commit: 17.02.2025 beginn
+[33ma96934c[m HEAD@{7}: commit: 17.02.2025 beginn
+[33mcf74caf[m HEAD@{8}: commit: 17.02.2025 beginn
+[33ma8a3eab[m HEAD@{9}: commit: 17.02.2025 beginn
+[33ma293c79[m HEAD@{10}: commit: 17.02.2025 beginn
+[33m08ce37f[m[33m ([m[1;31mmain/master[m[33m)[m HEAD@{11}: commit: ok
+[33m3854fdc[m HEAD@{12}: commit: finalizing threads
+[33mdd98140[m HEAD@{13}: commit: finalizing threads
+[33m873fdfb[m HEAD@{14}: commit: finalizing threads
+[33madbcfad[m HEAD@{15}: commit: add ThreadLandschaft
+[33mb40bf4e[m HEAD@{16}: commit: add ThreadLandschaft
+[33mcb1c83f[m HEAD@{17}: commit: add ThreadLandschaft
+[33m21a0424[m HEAD@{18}: commit: add ThreadLandschaft
+[33m8a4fe17[m HEAD@{19}: commit: add ThreadLandschaft
+[33m38c140f[m HEAD@{20}: commit: add ThreadLandschaft
+[33me0d9f9e[m HEAD@{21}: commit: add ThreadLandschaft
+[33mffab9f1[m HEAD@{22}: commit: add ThreadLandschaft
+[33m13d4e1f[m HEAD@{23}: commit: add ThreadLandschaft
+[33me0cce88[m HEAD@{24}: commit: add ThreadLandschaft
+[33m1488e83[m HEAD@{25}: commit: add ThreadLandschaft
+[33m43bd7a7[m HEAD@{26}: commit: add ThreadLandschaft
+[33m64730da[m HEAD@{27}: commit: add ThreadLandschaft
+[33m8b2c68b[m HEAD@{28}: commit: add ThreadLandschaft
+[33m62f259e[m HEAD@{29}: commit: add ThreadLandschaft
+[33m6349ea1[m HEAD@{30}: commit: cleaning up the code
+[33m49093f7[m HEAD@{31}: commit: cleaning up the code
+[33m678ea9d[m HEAD@{32}: commit: repair landscape.png
+[33m4781b65[m HEAD@{33}: commit: revert Landschaft.jpg
+[33m8c190d8[m HEAD@{34}: commit: revert Landschaft.jpg
+[33m215df96[m HEAD@{35}: commit: nearly there
+[33m8efb97b[m HEAD@{36}: commit: nearly there
+[33mf2f47bf[m HEAD@{37}: commit: nearly there
+[33m1a62be2[m HEAD@{38}: commit: nearly there
+[33ma81d08e[m HEAD@{39}: commit: nearly there
+[33m71e6e57[m HEAD@{40}: commit: nearly there
+[33m190aa4f[m HEAD@{41}: commit: nearly there
+[33m168f3ff[m HEAD@{42}: commit: nearly there
+[33m71d987f[m HEAD@{43}: commit: nearly there
+[33mc36eda8[m HEAD@{44}: commit: nearly there
+[33m25fb528[m HEAD@{45}: commit: nearly there
+[33mdfef7d2[m HEAD@{46}: commit: nearly there
+[33mc727b76[m HEAD@{47}: commit: nearly there
+[33m0a29944[m HEAD@{48}: commit: nearly there
+[33m6bd3026[m HEAD@{49}: commit: nearly there
+[33m88fa9a4[m HEAD@{50}: commit: nearly there
+[33m66ccea2[m HEAD@{51}: commit: nearly there
+[33m874bec5[m HEAD@{52}: commit: nearly there
+[33mf98f035[m HEAD@{53}: commit: nearly there
+[33ma4ec396[m HEAD@{54}: commit: nearly there
+[33m5be5fe2[m HEAD@{55}: commit: nearly there
+[33m7a02526[m HEAD@{56}: commit: nearly there
+[33m69c69c1[m HEAD@{57}: commit: nearly there
+[33m845242a[m HEAD@{58}: commit: nearly there
+[33maaa7260[m HEAD@{59}: commit: nearly there
+[33m3a4db81[m HEAD@{60}: commit: nearly there
+[33m212bf9e[m HEAD@{61}: commit: nearly there
+[33mea90aff[m HEAD@{62}: commit: nearly there
+[33m1679b9e[m HEAD@{63}: commit: nearly there
+[33m92821fb[m HEAD@{64}: commit: add Wind
+[33mc505f25[m HEAD@{65}: commit: finalizing
+[33md60fd4b[m HEAD@{66}: commit: finalizing
+[33m3078b94[m HEAD@{67}: commit: finalizing
+[33m44bbc70[m HEAD@{68}: commit: finalizing
+[33md5fa647[m HEAD@{69}: commit: finalizing
+[33m1a73b08[m HEAD@{70}: commit: finalizing
+[33m985987d[m HEAD@{71}: commit: finalizing
+[33m1c08979[m HEAD@{72}: commit: finalizing
+[33m7abf325[m HEAD@{73}: commit: finalizing
+[33m8557c2b[m HEAD@{74}: commit: finalizing
+[33m81e4033[m HEAD@{75}: commit: finalizing
+[33m38bc075[m HEAD@{76}: commit: finalizing
+[33mb95ad8e[m HEAD@{77}: commit: getter setter conflict
+[33m574e7ae[m HEAD@{78}: commit: getter setter conflict
+[33mdd16da9[m HEAD@{79}: commit: getter setter conflict
+[33m6b1b46d[m HEAD@{80}: commit: getter setter conflict
+[33m3962bc4[m HEAD@{81}: commit: getter setter conflict
+[33m52b94e0[m HEAD@{82}: commit: getter setter conflict
+[33m39bbb16[m HEAD@{83}: commit: getter setter conflict
+[33mf8d511e[m HEAD@{84}: commit: getter setter conflict
+[33md42bd0e[m HEAD@{85}: commit: getter setter conflict
+[33mbf89f48[m HEAD@{86}: commit: getter setter conflict
+[33m2591e01[m HEAD@{87}: commit: getter setter conflict
+[33m5a22367[m HEAD@{88}: commit: getter setter conflict
+[33m0d2e547[m HEAD@{89}: commit: getter setter conflict
+[33m661bff6[m HEAD@{90}: commit: getter setter conflict
+[33m7caa033[m HEAD@{91}: commit: getter setter conflict
+[33m0e203b8[m HEAD@{92}: commit: getter setter conflict
+[33me42fdd7[m HEAD@{93}: commit: getter setter conflict
+[33m33ccf6e[m HEAD@{94}: commit: getter setter conflict
+[33mfdb2b63[m HEAD@{95}: commit: getter setter conflict
+[33ma2749c2[m HEAD@{96}: commit: getter setter conflict
+[33mb4f3e5e[m HEAD@{97}: commit: getter setter conflict
+[33m19287b2[m HEAD@{98}: commit: getter setter conflict
+[33me098cda[m HEAD@{99}: commit: getter setter conflict
+[33m7fba06d[m HEAD@{100}: commit: getter setter conflict
+[33m656184b[m HEAD@{101}: commit: getter setter conflict
+[33m020e40a[m HEAD@{102}: commit: getter setter conflict
+[33m8032188[m HEAD@{103}: commit: getter setter conflict
+[33m0147209[m HEAD@{104}: commit: getter setter conflict
+[33m09bdd09[m HEAD@{105}: commit: getter setter conflict
+[33m1a1b44b[m HEAD@{106}: commit: getter setter conflict
+[33m9fb9441[m HEAD@{107}: commit: even more testing
+[33mdb7da66[m HEAD@{108}: commit: even more testing
+[33md6dd41b[m HEAD@{109}: commit: even more testing
+[33m2b547d2[m HEAD@{110}: commit: even more testing
+[33m4f055b2[m HEAD@{111}: commit: even more testing
+[33mf24dd67[m HEAD@{112}: commit: even more testing
+[33mbb6095f[m HEAD@{113}: commit: even more testing
+[33maf96cd3[m HEAD@{114}: commit: even more testing
+[33m30946dc[m HEAD@{115}: commit: even more testing
+[33m5cf50ce[m HEAD@{116}: commit: even more testing
+[33m1d9f99e[m HEAD@{117}: commit: even more testing
+[33mc5a6049[m HEAD@{118}: commit: even more testing
+[33m9c04812[m HEAD@{119}: commit: even more testing
+[33m4c2472e[m HEAD@{120}: commit: even more testing
+[33m78d608a[m HEAD@{121}: commit: even more testing
+[33m8181a42[m HEAD@{122}: commit: even more testing
+[33m7d47305[m HEAD@{123}: commit: even more testing
+[33m4a50535[m HEAD@{124}: commit: even more testing
+[33m65475d0[m HEAD@{125}: commit: even more testing
+[33m22f6a9d[m HEAD@{126}: commit: even more testing
+[33mc8068bd[m HEAD@{127}: commit: even more testing
+[33m6a67b3f[m HEAD@{128}: commit: even more testing
+[33me4cbf50[m HEAD@{129}: commit: even more testing
+[33me1dc966[m HEAD@{130}: commit: even more testing
+[33m19dffbc[m HEAD@{131}: commit: even more testing
+[33mb3667c2[m HEAD@{132}: commit: even more testing
+[33m0c89b34[m HEAD@{133}: commit: even more testing
+[33ma022e0f[m HEAD@{134}: commit: even more testing
+[33m4be8c51[m HEAD@{135}: commit: even more testing
+[33m3a681f7[m HEAD@{136}: commit: even more testing
+[33m5475a55[m HEAD@{137}: commit: even more testing
+[33mbad4185[m HEAD@{138}: commit: now working...
+[33me6f62ca[m HEAD@{139}: commit: now working...
+[33m7c584c8[m HEAD@{140}: commit: even more testing
+[33m19a458d[m HEAD@{141}: commit: even more testing
+[33me8e773a[m HEAD@{142}: commit: even more testing
+[33m2a07052[m HEAD@{143}: commit: even more testing
+[33mf6d0dd3[m HEAD@{144}: commit: even more testing
+[33mfba63fd[m HEAD@{145}: commit: even more testing
+[33m85997d6[m HEAD@{146}: commit: even more testing
+[33m05d8349[m HEAD@{147}: commit: even more testing
+[33m2fb98a6[m HEAD@{148}: commit: even more testing
+[33m51a7f7d[m HEAD@{149}: commit: even more testing
+[33md2
